@@ -31,22 +31,6 @@ disease O
 
 Sentences are separated by blank lines.
 
-## Project StructureÒ
-FineTuneBert/
-├── data/
-│   └── processed/
-│       ├── train.tsv
-│       └── val.tsv
-│       └── test.tsv
-├── src/
-│   ├── train.py
-│   ├── model.py
-│   ├── dataset.py
-│   └── tokenizer_utils.py
-│   └── train_test_split.py
-│   └── predict.py
-└── README.md
-
 ## Training Pipeline
 1. Load TSV files into Hugging Face Dataset objects.
 2. Tokenize input using BioBERT tokenizer and align labels with subword tokens.
