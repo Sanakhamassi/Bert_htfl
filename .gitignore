@@ -1,0 +1,6 @@
+data/acter
+**/.DS_Store 
+__pycache__/
+*.pyc
+.venv/
+model_checkpoints/
